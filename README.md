@@ -10,7 +10,7 @@
 
 **Scope:** This list covers standards that certify or regulate *organizations, companies, and processes* — not personal/professional certifications like AWS Certified, PMP, or CISSP. For those, see [awesome-certifications](https://github.com/PanXProject/awesome-certificates).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Translations
 
@@ -19,7 +19,7 @@
 - 🇩🇪 [Deutsch](README.de.md)
 - 🇪🇸 [Español](README.es.md)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Contents
 
@@ -40,7 +40,7 @@
 - [Gender Equality & Social Responsibility](#gender-equality--social-responsibility)
 - [Related Awesome Lists](#related-awesome-lists)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Certification Bodies & Standard Organizations
 
@@ -63,7 +63,7 @@
 | **AICPA** | American Institute of Certified Public Accountants | Auditing, trust services (SOC) | USA |
 | **PCI SSC** | Payment Card Industry Security Standards Council | Payment security | International |
 
----
+<p align="center">~ ~ ~</p>
 
 ## Quality Management
 
@@ -76,7 +76,7 @@ Standards that certify an organization's ability to consistently deliver product
 - **[Six Sigma](https://www.asq.org/cert/six-sigma)** — Data-driven methodology for eliminating defects in processes (DMAIC/DMADV). Organizations can achieve Belt-level certification.
 - **[IATF 16949](https://www.iatfglobaloversight.org/)** — Quality management for the automotive supply chain (see also [Automotive](#automotive)).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Information Security
 
@@ -93,7 +93,7 @@ Standards that certify an organization's information security management system 
 - **[NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)** — Security and privacy controls for federal information systems (USA), widely referenced globally.
 - **[CIS Controls](https://www.cisecurity.org/controls)** — Center for Internet Security. Prioritized set of safeguards to mitigate the most common cyberattacks.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Environmental Management
 
@@ -106,7 +106,7 @@ Standards certifying an organization's environmental impact management and susta
 - **[EMAS](https://environment.ec.europa.eu/topics/circular-economy/emas_en)** — Eco-Management and Audit Scheme. EU voluntary instrument for organizations to evaluate, report, and improve their environmental performance. More demanding than ISO 14001.
 - **[GHG Protocol](https://ghgprotocol.org/)** — Greenhouse Gas Protocol. The most widely used international accounting standard for GHG emissions (Scope 1, 2, 3).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Health & Safety
 
@@ -116,7 +116,7 @@ Standards certifying occupational health, safety, and well-being management syst
 - **[OHSAS 18001](https://www.bsigroup.com/en-GB/ohsas-18001-occupational-health-and-safety/)** — Predecessor to ISO 45001. Officially withdrawn in 2021; organizations should have migrated.
 - **[ISO 45003](https://www.iso.org/standard/64283.html)** — Psychological health and safety at work. Guidance on managing psychosocial risks.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Privacy & Data Protection
 
@@ -129,7 +129,7 @@ Frameworks and standards governing how organizations handle personal data.
 - **[ePrivacy Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02002L0058-20091219)** — EU directive on privacy in electronic communications. Companion to GDPR.
 - **[ISO 29100](https://www.iso.org/standard/45123.html)** — Privacy framework. Foundational concepts and terminology for privacy standards family.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Financial & Accounting
 
@@ -141,7 +141,7 @@ Standards and frameworks governing financial reporting, controls, and auditing.
 - **[PCI DSS](https://www.pcisecuritystandards.org/)** — Payment Card Industry Data Security Standard. Mandatory for any organization that stores, processes, or transmits cardholder data. Currently PCI DSS v4.0.
 - **[ISAE 3402 / SSAE 18](https://www.iaasb.org/publications/international-standard-assurance-engagements-isae-3402-assurance-reports-controls-service)** — Assurance reports on controls at service organizations. International equivalent of SOC 1.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Sector Specific
 
@@ -183,7 +183,7 @@ Standards and frameworks governing financial reporting, controls, and auditing.
 - **[ISO/IEC 12207](https://www.iso.org/standard/63712.html)** — Software lifecycle processes.
 - **[ISO/IEC 15408](https://www.iso.org/standard/50341.html)** — Common Criteria for Information Technology Security Evaluation.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Governance, Risk & Compliance (GRC)
 
@@ -196,7 +196,7 @@ Frameworks helping organizations manage governance, enterprise risk, and regulat
 - **[Basel III](https://www.bis.org/bcbs/basel3.htm)** — International regulatory framework for banks (capital requirements, stress testing).
 - **[Solvency II](https://www.eiopa.europa.eu/browse/regulation-and-policy/solvency-ii_en)** — EU regulatory framework for insurance companies.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gender Equality & Social Responsibility
 
@@ -206,7 +206,7 @@ Frameworks helping organizations manage governance, enterprise risk, and regulat
 - **[B Corp Certification](https://www.bcorporation.net/)** — Issued by B Lab. Certifies companies that meet high standards of social and environmental performance, accountability, and transparency.
 - **[ISO 26000](https://www.iso.org/iso-26000-social-responsibility.html)** — Guidance on social responsibility. Not certifiable — provides guidance only.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Related Awesome Lists
 
@@ -216,7 +216,7 @@ Frameworks helping organizations manage governance, enterprise risk, and regulat
 - [awesome-compliance](https://github.com/Pomerium/awesome-compliance) — Compliance tools and resources
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Free personal certifications for developers (NOT this list)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Contributing
 
@@ -228,7 +228,7 @@ Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before sub
 - Link to the official issuing body, not third-party summaries
 - If adding a sector-specific standard, place it in the correct subsection
 
----
+<p align="center">~ ~ ~</p>
 
 ## License
 

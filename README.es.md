@@ -10,7 +10,7 @@
 
 **Alcance:** Esta lista cubre las normas que certifican o regulan *organizaciones, empresas y procesos* — no certificaciones personales/profesionales como AWS Certified, PMP o CISSP. Para esas, consulta [awesome-certifications](https://github.com/PanXProject/awesome-certificates).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Traducciones
 
@@ -19,7 +19,7 @@
 - 🇩🇪 [Deutsch](README.de.md)
 - 🇪🇸 [Español](README.es.md) ← estás aquí
 
----
+<p align="center">~ ~ ~</p>
 
 ## Contenido
 
@@ -40,7 +40,7 @@
 - [Igualdad de Género y Responsabilidad Social](#igualdad-de-género-y-responsabilidad-social)
 - [Listas Awesome Relacionadas](#listas-awesome-relacionadas)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Organismos de Certificación y Normalización
 
@@ -63,7 +63,7 @@
 | **AICPA** | American Institute of Certified Public Accountants | Auditoría, servicios de confianza (SOC) | EE.UU. |
 | **PCI SSC** | Payment Card Industry Security Standards Council | Seguridad en pagos | Internacional |
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gestión de la Calidad
 
@@ -76,7 +76,7 @@ Normas que certifican la capacidad de una organización para entregar de forma c
 - **[Six Sigma](https://www.asq.org/cert/six-sigma)** — Metodología basada en datos para eliminar defectos en procesos (DMAIC/DMADV). Las organizaciones pueden alcanzar certificaciones Belt.
 - **[IATF 16949](https://www.iatfglobaloversight.org/)** — Gestión de la calidad para la cadena de suministro de automoción (ver también [Automoción](#automoción)).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Seguridad de la Información
 
@@ -93,7 +93,7 @@ Normas que certifican el sistema de gestión de seguridad de la información (SG
 - **[NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)** — Controles de seguridad y privacidad para sistemas de información federales (EE.UU.), referenciado globalmente.
 - **[CIS Controls](https://www.cisecurity.org/controls)** — Center for Internet Security. Conjunto priorizado de salvaguardas para mitigar los ciberataques más comunes.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gestión Ambiental
 
@@ -106,7 +106,7 @@ Normas que certifican la gestión del impacto ambiental y las prácticas de sost
 - **[EMAS](https://environment.ec.europa.eu/topics/circular-economy/emas_en)** — Sistema Comunitario de Gestión y Auditoría Medioambientales. Instrumento voluntario de la UE para que las organizaciones evalúen, informen y mejoren su desempeño ambiental. Más exigente que ISO 14001.
 - **[GHG Protocol](https://ghgprotocol.org/)** — Protocolo de Gases de Efecto Invernadero. El estándar contable internacional más utilizado para emisiones de GEI (Alcance 1, 2, 3).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Salud y Seguridad
 
@@ -116,7 +116,7 @@ Normas que certifican los sistemas de gestión de salud y seguridad en el trabaj
 - **[OHSAS 18001](https://www.bsigroup.com/en-GB/ohsas-18001-occupational-health-and-safety/)** — Predecesor de ISO 45001. Retirado oficialmente en 2021; las organizaciones deberían haber migrado.
 - **[ISO 45003](https://www.iso.org/standard/64283.html)** — Salud y seguridad psicológica en el trabajo. Orientación para gestionar riesgos psicosociales.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Privacidad y Protección de Datos
 
@@ -129,7 +129,7 @@ Marcos de trabajo y normas que regulan cómo las organizaciones manejan los dato
 - **[Directiva ePrivacy](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02002L0058-20091219)** — Directiva de la UE sobre privacidad en las comunicaciones electrónicas. Complementaria al RGPD.
 - **[ISO 29100](https://www.iso.org/standard/45123.html)** — Marco de privacidad. Conceptos fundamentales y terminología para la familia de normas de privacidad.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Finanzas y Contabilidad
 
@@ -141,7 +141,7 @@ Normas y marcos de trabajo que rigen la información financiera, los controles y
 - **[PCI DSS](https://www.pcisecuritystandards.org/)** — Payment Card Industry Data Security Standard. Obligatorio para cualquier organización que almacene, procese o transmita datos de titulares de tarjetas. Actualmente PCI DSS v4.0.
 - **[ISAE 3402 / SSAE 18](https://www.iaasb.org/publications/international-standard-assurance-engagements-isae-3402-assurance-reports-controls-service)** — Informes de aseguramiento sobre controles en organizaciones de servicios. Equivalente internacional de SOC 1.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Sectores Específicos
 
@@ -183,7 +183,7 @@ Normas y marcos de trabajo que rigen la información financiera, los controles y
 - **[ISO/IEC 12207](https://www.iso.org/standard/63712.html)** — Procesos del ciclo de vida del software.
 - **[ISO/IEC 15408](https://www.iso.org/standard/50341.html)** — Criterios Comunes para la evaluación de la seguridad en tecnologías de la información.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gobernanza, Riesgo y Cumplimiento (GRC)
 
@@ -196,7 +196,7 @@ Marcos de trabajo que ayudan a las organizaciones a gestionar de forma holístic
 - **[Basilea III](https://www.bis.org/bcbs/basel3.htm)** — Marco regulatorio internacional para bancos (requisitos de capital, pruebas de estrés).
 - **[Solvencia II](https://www.eiopa.europa.eu/browse/regulation-and-policy/solvency-ii_en)** — Marco regulatorio de la UE para compañías de seguros.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Igualdad de Género y Responsabilidad Social
 
@@ -206,7 +206,7 @@ Marcos de trabajo que ayudan a las organizaciones a gestionar de forma holístic
 - **[B Corp Certification](https://www.bcorporation.net/)** — Emitida por B Lab. Certifica empresas que cumplen altos estándares de rendimiento social y ambiental, responsabilidad y transparencia.
 - **[ISO 26000](https://www.iso.org/iso-26000-social-responsibility.html)** — Guía sobre responsabilidad social. No certificable — proporciona solo orientación.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Listas Awesome Relacionadas
 
@@ -216,7 +216,7 @@ Marcos de trabajo que ayudan a las organizaciones a gestionar de forma holístic
 - [awesome-compliance](https://github.com/Pomerium/awesome-compliance) — Herramientas y recursos de cumplimiento
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Certificaciones personales gratuitas para desarrolladores (NO esta lista)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Contribuir
 
@@ -228,7 +228,7 @@ Marcos de trabajo que ayudan a las organizaciones a gestionar de forma holístic
 - Enlaza al organismo emisor oficial, no a resúmenes de terceros
 - Si añades una norma específica de sector, colócala en la subsección correcta
 
----
+<p align="center">~ ~ ~</p>
 
 ## Licencia
 

@@ -10,7 +10,7 @@
 
 **Umfang:** Diese Liste umfasst Normen, die *Organisationen, Unternehmen und Prozesse* zertifizieren oder regulieren — keine persönlichen/beruflichen Zertifizierungen wie AWS Certified, PMP oder CISSP. Für diese siehe [awesome-certifications](https://github.com/PanXProject/awesome-certificates).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Übersetzungen
 
@@ -19,7 +19,7 @@
 - 🇩🇪 [Deutsch](README.de.md) ← Sie sind hier
 - 🇪🇸 [Español](README.es.md)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Inhaltsverzeichnis
 
@@ -40,7 +40,7 @@
 - [Gleichstellung & Soziale Verantwortung](#gleichstellung--soziale-verantwortung)
 - [Verwandte Awesome-Listen](#verwandte-awesome-listen)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Zertifizierungsstellen & Normungsorganisationen
 
@@ -63,7 +63,7 @@
 | **AICPA** | American Institute of Certified Public Accountants | Wirtschaftsprüfung, Trust Services (SOC) | USA |
 | **PCI SSC** | Payment Card Industry Security Standards Council | Zahlungssicherheit | International |
 
----
+<p align="center">~ ~ ~</p>
 
 ## Qualitätsmanagement
 
@@ -76,7 +76,7 @@ Normen, die die Fähigkeit einer Organisation zertifizieren, Produkte und Dienst
 - **[Six Sigma](https://www.asq.org/cert/six-sigma)** — Datengestützte Methodik zur Beseitigung von Prozessfehlern (DMAIC/DMADV). Organisationen können Belt-Zertifizierungen erlangen.
 - **[IATF 16949](https://www.iatfglobaloversight.org/)** — Qualitätsmanagement für die Automobilzulieferkette (siehe auch [Automotive](#automotive)).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Informationssicherheit
 
@@ -93,7 +93,7 @@ Normen, die das Informationssicherheitsmanagementsystem (ISMS) einer Organisatio
 - **[NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)** — Sicherheits- und Datenschutzmaßnahmen für föderale Informationssysteme (USA), weltweit referenziert.
 - **[CIS Controls](https://www.cisecurity.org/controls)** — Center for Internet Security. Priorisierte Schutzmaßnahmen gegen die häufigsten Cyberangriffe.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Umweltmanagement
 
@@ -106,7 +106,7 @@ Normen, die das Umweltmanagement und die Nachhaltigkeitspraktiken einer Organisa
 - **[EMAS](https://environment.ec.europa.eu/topics/circular-economy/emas_en)** — Eco-Management and Audit Scheme. Freiwilliges EU-Instrument für Organisationen zur Bewertung, Berichterstattung und Verbesserung ihrer Umweltleistung. Anspruchsvoller als ISO 14001.
 - **[GHG Protocol](https://ghgprotocol.org/)** — Greenhouse Gas Protocol. Der weltweit meistgenutzte internationale Rechnungslegungsstandard für Treibhausgasemissionen (Scope 1, 2, 3).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gesundheit & Sicherheit
 
@@ -116,7 +116,7 @@ Normen, die Managementsysteme für Arbeitsschutz und Sicherheit zertifizieren.
 - **[OHSAS 18001](https://www.bsigroup.com/en-GB/ohsas-18001-occupational-health-and-safety/)** — Vorgänger von ISO 45001. Offiziell zurückgezogen 2021; Organisationen sollten migriert sein.
 - **[ISO 45003](https://www.iso.org/standard/64283.html)** — Psychische Gesundheit und Sicherheit bei der Arbeit. Leitfaden zum Management psychosozialer Risiken.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Datenschutz & Datensicherheit
 
@@ -129,7 +129,7 @@ Rahmenwerke und Normen, die den Umgang von Organisationen mit personenbezogenen 
 - **[ePrivacy-Richtlinie](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02002L0058-20091219)** — EU-Richtlinie über Datenschutz in der elektronischen Kommunikation. Ergänzung zur DSGVO.
 - **[ISO 29100](https://www.iso.org/standard/45123.html)** — Datenschutzrahmen. Grundlegende Konzepte und Terminologie der Datenschutznormenfamilie.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Finanzen & Rechnungswesen
 
@@ -141,7 +141,7 @@ Normen und Rahmenwerke für Finanzberichterstattung, Kontrollen und Wirtschaftsp
 - **[PCI DSS](https://www.pcisecuritystandards.org/)** — Payment Card Industry Data Security Standard. Pflicht für jede Organisation, die Karteninhaberdaten speichert, verarbeitet oder überträgt. Aktuell PCI DSS v4.0.
 - **[ISAE 3402 / SSAE 18](https://www.iaasb.org/publications/international-standard-assurance-engagements-isae-3402-assurance-reports-controls-service)** — Assurance-Berichte über Kontrollen bei Serviceorganisationen. Internationales Äquivalent zu SOC 1.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Branchenspezifisch
 
@@ -183,7 +183,7 @@ Normen und Rahmenwerke für Finanzberichterstattung, Kontrollen und Wirtschaftsp
 - **[ISO/IEC 12207](https://www.iso.org/standard/63712.html)** — Software-Lebenszyklusprozesse.
 - **[ISO/IEC 15408](https://www.iso.org/standard/50341.html)** — Common Criteria für die Bewertung der IT-Sicherheit.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Governance, Risk & Compliance (GRC)
 
@@ -196,7 +196,7 @@ Rahmenwerke, die Organisationen bei der ganzheitlichen Verwaltung von Governance
 - **[Basel III](https://www.bis.org/bcbs/basel3.htm)** — Internationales Regulierungsrahmenwerk für Banken (Eigenkapitalanforderungen, Stresstests).
 - **[Solvency II](https://www.eiopa.europa.eu/browse/regulation-and-policy/solvency-ii_en)** — EU-Regulierungsrahmenwerk für Versicherungsunternehmen.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gleichstellung & Soziale Verantwortung
 
@@ -206,7 +206,7 @@ Rahmenwerke, die Organisationen bei der ganzheitlichen Verwaltung von Governance
 - **[B Corp Certification](https://www.bcorporation.net/)** — Ausgestellt von B Lab. Zertifiziert Unternehmen, die hohe Standards in sozialer und ökologischer Leistung, Rechenschaftspflicht und Transparenz erfüllen.
 - **[ISO 26000](https://www.iso.org/iso-26000-social-responsibility.html)** — Leitfaden zur sozialen Verantwortung. Nicht zertifizierbar — bietet nur Orientierung.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Verwandte Awesome-Listen
 
@@ -216,7 +216,7 @@ Rahmenwerke, die Organisationen bei der ganzheitlichen Verwaltung von Governance
 - [awesome-compliance](https://github.com/Pomerium/awesome-compliance) — Compliance-Tools und Ressourcen
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Kostenlose persönliche Zertifizierungen für Entwickler (NICHT diese Liste)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Beitragen
 
@@ -228,7 +228,7 @@ Beiträge willkommen! Bitte lesen Sie [CONTRIBUTING.md](CONTRIBUTING.md) vor dem
 - Verlinken Sie auf die offizielle Herausgeberstelle, nicht auf Zusammenfassungen Dritter
 - Bei branchenspezifischen Normen in den richtigen Unterabschnitt einfügen
 
----
+<p align="center">~ ~ ~</p>
 
 ## Lizenz
 

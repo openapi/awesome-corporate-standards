@@ -10,7 +10,7 @@
 
 **Ambito:** Questa lista copre gli standard che certificano o regolamentano *organizzazioni, aziende e processi* — non certificazioni personali/professionali come AWS Certified, PMP o CISSP. Per quelle, vedi [awesome-certifications](https://github.com/PanXProject/awesome-certificates).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Traduzioni
 
@@ -19,7 +19,7 @@
 - 🇩🇪 [Deutsch](README.de.md)
 - 🇪🇸 [Español](README.es.md)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Indice
 
@@ -40,7 +40,7 @@
 - [Parità di Genere e Responsabilità Sociale](#parità-di-genere-e-responsabilità-sociale)
 - [Liste Awesome Correlate](#liste-awesome-correlate)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Enti di Certificazione e Organismi di Normazione
 
@@ -63,7 +63,7 @@
 | **AICPA** | American Institute of Certified Public Accountants | Revisione contabile, trust services (SOC) | USA |
 | **PCI SSC** | Payment Card Industry Security Standards Council | Sicurezza dei pagamenti | Internazionale |
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gestione della Qualità
 
@@ -76,7 +76,7 @@ Standard che certificano la capacità di un'organizzazione di fornire prodotti e
 - **[Six Sigma](https://www.asq.org/cert/six-sigma)** — Metodologia basata sui dati per eliminare i difetti nei processi (DMAIC/DMADV). Le organizzazioni possono conseguire la certificazione a livello Belt.
 - **[IATF 16949](https://www.iatfglobaloversight.org/)** — Gestione della qualità per la filiera automotive (vedi anche [Automotive](#automotive)).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Sicurezza delle Informazioni
 
@@ -93,7 +93,7 @@ Standard che certificano il sistema di gestione della sicurezza delle informazio
 - **[NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)** — Controlli di sicurezza e privacy per i sistemi informativi federali (USA), largamente utilizzato a livello globale.
 - **[CIS Controls](https://www.cisecurity.org/controls)** — Center for Internet Security. Insieme prioritizzato di misure di protezione contro gli attacchi informatici più comuni.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Gestione Ambientale
 
@@ -106,7 +106,7 @@ Standard che certificano la gestione degli impatti ambientali e le pratiche di s
 - **[EMAS](https://environment.ec.europa.eu/topics/circular-economy/emas_en)** — Schema di Eco-gestione e Audit. Strumento volontario UE per la valutazione, rendicontazione e miglioramento delle prestazioni ambientali. Più esigente di ISO 14001.
 - **[GHG Protocol](https://ghgprotocol.org/)** — Greenhouse Gas Protocol. Lo standard contabile internazionale più diffuso per le emissioni di gas serra (Scope 1, 2, 3).
 
----
+<p align="center">~ ~ ~</p>
 
 ## Salute e Sicurezza
 
@@ -116,7 +116,7 @@ Standard che certificano i sistemi di gestione della salute e sicurezza occupazi
 - **[OHSAS 18001](https://www.bsigroup.com/en-GB/ohsas-18001-occupational-health-and-safety/)** — Predecessore di ISO 45001. Ritirato ufficialmente nel 2021; le organizzazioni avrebbero dovuto migrare.
 - **[ISO 45003](https://www.iso.org/standard/64283.html)** — Salute e sicurezza psicologica sul lavoro. Guida alla gestione dei rischi psicosociali.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Privacy e Protezione dei Dati
 
@@ -129,7 +129,7 @@ Framework e standard che disciplinano il trattamento dei dati personali da parte
 - **[Direttiva ePrivacy](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02002L0058-20091219)** — Direttiva UE sulla privacy nelle comunicazioni elettroniche. Complementare al GDPR.
 - **[ISO 29100](https://www.iso.org/standard/45123.html)** — Framework per la privacy. Concetti fondamentali e terminologia per la famiglia di standard sulla privacy.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Finanza e Contabilità
 
@@ -141,7 +141,7 @@ Standard e framework che disciplinano il reporting finanziario, i controlli e la
 - **[PCI DSS](https://www.pcisecuritystandards.org/)** — Payment Card Industry Data Security Standard. Obbligatorio per qualsiasi organizzazione che conservi, elabori o trasmetta dati dei titolari di carta. Attualmente versione PCI DSS v4.0.
 - **[ISAE 3402 / SSAE 18](https://www.iaasb.org/publications/international-standard-assurance-engagements-isae-3402-assurance-reports-controls-service)** — Rapporti di assurance sui controlli delle organizzazioni di servizi. Equivalente internazionale di SOC 1.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Settori Specifici
 
@@ -183,7 +183,7 @@ Standard e framework che disciplinano il reporting finanziario, i controlli e la
 - **[ISO/IEC 12207](https://www.iso.org/standard/63712.html)** — Processi del ciclo di vita del software.
 - **[ISO/IEC 15408](https://www.iso.org/standard/50341.html)** — Criteri Comuni per la valutazione della sicurezza delle tecnologie informatiche.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Governance, Risk & Compliance (GRC)
 
@@ -196,7 +196,7 @@ Framework che aiutano le organizzazioni a gestire in modo olistico la governance
 - **[Basilea III](https://www.bis.org/bcbs/basel3.htm)** — Framework regolamentare internazionale per le banche (requisiti patrimoniali, stress test).
 - **[Solvency II](https://www.eiopa.europa.eu/browse/regulation-and-policy/solvency-ii_en)** — Framework regolamentare UE per le compagnie assicurative.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Parità di Genere e Responsabilità Sociale
 
@@ -206,7 +206,7 @@ Framework che aiutano le organizzazioni a gestire in modo olistico la governance
 - **[B Corp Certification](https://www.bcorporation.net/)** — Rilasciata da B Lab. Certifica le aziende che soddisfano elevati standard di performance sociale e ambientale, responsabilità e trasparenza.
 - **[ISO 26000](https://www.iso.org/iso-26000-social-responsibility.html)** — Guida alla responsabilità sociale. Non certificabile — fornisce solo orientamento.
 
----
+<p align="center">~ ~ ~</p>
 
 ## Liste Awesome Correlate
 
@@ -216,7 +216,7 @@ Framework che aiutano le organizzazioni a gestire in modo olistico la governance
 - [awesome-compliance](https://github.com/Pomerium/awesome-compliance) — Strumenti e risorse per la conformità
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Certificazioni personali gratuite per sviluppatori (NON questa lista)
 
----
+<p align="center">~ ~ ~</p>
 
 ## Contribuire
 
@@ -228,7 +228,7 @@ I contributi sono benvenuti! Leggi [CONTRIBUTING.md](CONTRIBUTING.md) prima di i
 - Collega al sito ufficiale dell'ente emittente, non a riepiloghi di terze parti
 - Se aggiungi uno standard specifico per settore, inseriscilo nella sottosezione corretta
 
----
+<p align="center">~ ~ ~</p>
 
 ## Licenza
 
