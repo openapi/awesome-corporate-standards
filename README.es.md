@@ -47,7 +47,7 @@
 > ¿Quién escribe las reglas? Esta sección explica los principales organismos que desarrollan y publican normas internacionales.
 
 | Organismo | Nombre Completo | Ámbito | Región |
-|-----------|----------------|--------|--------|
+|:---------:|----------------|--------|:------:|
 | **ISO** | International Organization for Standardization | Multisectorial: calidad, seguridad, medio ambiente, salud, energía y más | Internacional |
 | **IEC** | International Electrotechnical Commission | Tecnologías eléctricas, electrónicas y afines | Internacional |
 | **ITU** | International Telecommunication Union | Telecomunicaciones y TIC | Internacional (agencia ONU) |

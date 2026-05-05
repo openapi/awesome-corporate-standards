@@ -47,7 +47,7 @@
 > Chi scrive le regole? Questa sezione descrive i principali organismi che sviluppano e pubblicano gli standard internazionali.
 
 | Ente | Nome Completo | Ambito | Regione |
-|------|---------------|--------|---------|
+|:----:|---------------|--------|:-------:|
 | **ISO** | International Organization for Standardization | Trasversale: qualità, sicurezza, ambiente, salute, energia e altro | Internazionale |
 | **IEC** | International Electrotechnical Commission | Tecnologie elettriche, elettroniche e correlate | Internazionale |
 | **ITU** | International Telecommunication Union | Telecomunicazioni e ICT | Internazionale (agenzia ONU) |

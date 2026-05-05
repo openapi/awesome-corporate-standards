@@ -47,7 +47,7 @@
 > Who writes the rules? This section explains the main bodies that develop and publish international standards.
 
 | Body | Full Name | Scope | Region |
-|------|-----------|-------|--------|
+|:----:|-----------|-------|:------:|
 | **ISO** | International Organization for Standardization | Cross-industry: quality, security, environment, safety, energy, and more | International |
 | **IEC** | International Electrotechnical Commission | Electrical, electronic, and related technologies | International |
 | **ITU** | International Telecommunication Union | Telecommunications and ICT | International (UN agency) |

@@ -47,7 +47,7 @@
 > Wer schreibt die Regeln? Dieser Abschnitt erläutert die wichtigsten Stellen, die internationale Normen entwickeln und veröffentlichen.
 
 | Stelle | Vollständiger Name | Bereich | Region |
-|--------|-------------------|---------|--------|
+|:------:|-------------------|---------|:------:|
 | **ISO** | International Organization for Standardization | Branchenübergreifend: Qualität, Sicherheit, Umwelt, Gesundheit, Energie u.v.m. | International |
 | **IEC** | International Electrotechnical Commission | Elektro-, Elektronik- und verwandte Technologien | International |
 | **ITU** | International Telecommunication Union | Telekommunikation und IKT | International (UN-Sonderorganisation) |
