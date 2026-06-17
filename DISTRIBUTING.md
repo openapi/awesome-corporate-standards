@@ -49,9 +49,9 @@ This is the first execution batch. It favors channels with high topical fit and 
 |---|---|---|---|---|---|
 | P1 | GitHub repository metadata and README surfaces | Highest leverage on all passive discovery paths | yes | Keep title, intro, topics, homepage, and related-links section aligned | in progress |
 | P1 | GitHub topic pages: `awesome-list`, `standards`, `compliance`, `grc`, `gdpr` | Core passive discovery surfaces already fed by repo metadata | yes | Monitor ranking and tighten topical wording in README if needed | monitoring |
-| P1 | `awesome-standards` | Best direct overlap with the repository's standards focus | partial | Prepare PR-ready entry text and validate contribution path | todo |
-| P1 | `awesome-compliance` (`getprobo`) | Strong overlap on compliance frameworks and organizational standards | partial | Prepare submission note tailored to compliance audience | todo |
-| P1 | `awesome-compliance` (`theopenlane`) | Secondary high-fit aggregator in the same space | partial | Reuse tailored compliance framing with repo-specific wording | todo |
+| P1 | `awesome-standards` | Best direct overlap with the repository's standards focus | partial | PR [donbarbos#8](https://github.com/donbarbos/awesome-standards/pull/8) open — monitor for review | submitted |
+| P1 | `awesome-compliance` (`getprobo`) | Strong overlap on compliance frameworks and organizational standards | partial | PR [getprobo#37](https://github.com/getprobo/awesome-compliance/pull/37) open — monitor for review | submitted |
+| P1 | `awesome-compliance` (`theopenlane`) | Secondary high-fit aggregator in the same space | partial | PR [theopenlane#37](https://github.com/theopenlane/awesome-compliance/pull/37) open — monitor for review | submitted |
 | P2 | `awesome-security-GRC` | Strong fit for governance, risk, audit, and security controls subsections | partial | Emphasize ISO 27001, SOC, NIST, PCI DSS, and GRC coverage | todo |
 | P2 | `awesome-grc-engineering` / `awesome-grcengineering` | Good contextual fit for governance and compliance engineering readers | partial | Position the repo as a standards reference layer, not a tool catalog | todo |
 | P2 | Reddit `r/gdpr` | Best non-GitHub environment for selective, contextual references to privacy sections | partial | Watch for threads comparing GDPR, ISO 27701, and org-level privacy frameworks | monitoring |
@@ -72,13 +72,15 @@ The repo-level execution assets for outbound distribution live under `.github/di
 
 ## PR submission queue (validated, ready to open)
 
-State as of 2026-06-17. The three P1 aggregators were inspected live: target section, entry format, and contribution rules are confirmed, and the exact entry text is prepared below. **No PR has been opened yet** — this is the next-session action. Each target is a distinct upstream, so forks must use distinct names (both compliance lists share the name `awesome-compliance`).
+State as of 2026-06-17. The three P1 aggregator PRs are **opened and awaiting review**. Forks live under the `francescobianco` account (note the actual fork names below — both compliance lists share the upstream name `awesome-compliance`).
 
-| Target | Stars | Section to edit | Entry format | Fork name to use | Status |
+| Target | Stars | Section edited | Fork name | PR | Status |
 |---|---|---|---|---|---|
-| `donbarbos/awesome-standards` | 223 | `## Related Awesome Lists` | `- [Name](url) - Description.` | `francescobianco/awesome-standards` | entry ready, PR pending |
-| `getprobo/awesome-compliance` | 89 | `## Related` | `- [Name](url).` (minimal, matches existing) | `francescobianco/awesome-compliance` | entry ready, PR pending |
-| `theopenlane/awesome-compliance` | 50 | `### Compliance Specifications & Resources` | `- [Name](url) - Description.` (must pass `awesome-lint`) | `francescobianco/awesome-compliance-theopenlane` | entry ready, PR pending |
+| `donbarbos/awesome-standards` | 223 | `## Related Awesome Lists` | `francescobianco/awesome-standards` | [#8](https://github.com/donbarbos/awesome-standards/pull/8) | submitted |
+| `getprobo/awesome-compliance` | 89 | `## Related` | `francescobianco/awesome-compliance-getprobo` | [#37](https://github.com/getprobo/awesome-compliance/pull/37) | submitted |
+| `theopenlane/awesome-compliance` | 50 | `### Compliance Specifications & Resources` | `francescobianco/awesome-compliance` | [#37](https://github.com/theopenlane/awesome-compliance/pull/37) | submitted |
+
+Next action on these: monitor for maintainer review/merge or change requests, and respond if a reviewer asks for edits.
 
 Ready-to-use entry text:
 
@@ -127,9 +129,9 @@ These are curated repositories or awesome-list style aggregators where this proj
 
 | Channel | URL | Mode | Agent-operable | Fit | Status | Notes |
 |---|---|---|---|---|---|---|
-| awesome-standards | `https://github.com/donbarbos/awesome-standards` | PR / review | partial | high | in progress | Placement validated → `Related Awesome Lists`. Entry ready, PR not yet opened |
-| awesome-compliance | `https://github.com/getprobo/awesome-compliance` | PR / review | partial | high | in progress | Placement validated → `## Related`. Entry ready, PR not yet opened |
-| awesome-compliance | `https://github.com/theopenlane/awesome-compliance` | PR / review | partial | high | in progress | Placement validated → `Compliance Specifications & Resources`. Lint-clean entry ready, PR not yet opened |
+| awesome-standards | `https://github.com/donbarbos/awesome-standards` | PR / review | partial | high | submitted | PR opened → [donbarbos#8](https://github.com/donbarbos/awesome-standards/pull/8), awaiting review |
+| awesome-compliance | `https://github.com/getprobo/awesome-compliance` | PR / review | partial | high | submitted | PR opened → [getprobo#37](https://github.com/getprobo/awesome-compliance/pull/37), awaiting review |
+| awesome-compliance | `https://github.com/theopenlane/awesome-compliance` | PR / review | partial | high | submitted | PR opened → [theopenlane#37](https://github.com/theopenlane/awesome-compliance/pull/37), awaiting review |
 | awesome-security-GRC | `https://github.com/Arudjreis/awesome-security-GRC` | PR / review | partial | medium-high | todo | Strong overlap on GRC and audit angles |
 | awesome-gdpr / GDPR compliance resources | `https://github.com/paulveillard/cybersecurity-gdpr-compliance` | PR / review | partial | medium | todo | Good for privacy and compliance subsections, less for whole-list scope |
 | awesome-privacy | `https://github.com/lissy93/awesome-privacy` | PR / review | partial | medium-low | todo | Broad privacy audience, but repo focus is wider than privacy |
@@ -241,6 +243,7 @@ Use this as the operating history of distribution work for this repository.
 | 2026-06-17 | Inspected all three P1 aggregators live (structure, target section, entry format, contribution rules); confirmed exact placement and prepared lint-clean entry text — see `PR submission queue` |
 | 2026-06-17 | Set the three P1 aggregator rows to `in progress` (entries ready, PRs not yet opened); opening the PRs is the next-session action |
 | 2026-06-17 | Recorded the forum/external-discussion stance: contextual owner-posted answers only, no automated promotional posting |
+| 2026-06-17 | Opened the three P1 aggregator PRs: [donbarbos/awesome-standards#8](https://github.com/donbarbos/awesome-standards/pull/8), [getprobo/awesome-compliance#37](https://github.com/getprobo/awesome-compliance/pull/37), [theopenlane/awesome-compliance#37](https://github.com/theopenlane/awesome-compliance/pull/37) — all OPEN, awaiting maintainer review |
 
 
 
