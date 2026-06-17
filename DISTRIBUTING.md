@@ -58,6 +58,18 @@ This is the first execution batch. It favors channels with high topical fit and 
 | P2 | DEV Community `compliance` / `privacy` | Commentable article surfaces where a contextual link can be appropriate | partial | Use only on threads that ask for standards maps or curated references | monitoring |
 | P3 | Hacker News / Lobsters / Spiceworks | Potentially valuable, but only with strong context and low-spam discipline | partial | Engage only when a live discussion matches the repo's scope tightly | monitoring |
 
+## Execution assets
+
+The repo-level execution assets for outbound distribution live under `.github/distribution/`.
+
+| Asset | Path | Purpose |
+|---|---|---|
+| Distribution kit index | `.github/distribution/README.md` | Entry point for the distribution package |
+| P1 payload: awesome-standards | `.github/distribution/payloads/awesome-standards.md` | PR-ready entry, title, and body |
+| P1 payload: awesome-compliance (getprobo) | `.github/distribution/payloads/awesome-compliance-getprobo.md` | PR-ready entry, title, and body |
+| P1 payload: awesome-compliance (theopenlane) | `.github/distribution/payloads/awesome-compliance-theopenlane.md` | PR-ready entry, title, and body |
+| External comments playbook | `.github/distribution/notes/external-comments.md` | Rules for contextual posting outside GitHub |
+
 ## Distribution surfaces
 
 ### 1. GitHub-native and mechanized channels
@@ -168,13 +180,13 @@ Any distribution copy should stay consistent with the repo's purpose.
 
 | Check | Status | Notes |
 |---|---|---|
-| README opening paragraph is sharp and credible | todo | First conversion point |
-| GitHub description matches README scope | todo | Prevents mixed messaging |
-| Topics are curated and non-spammy | todo | Important for search and related repos |
-| All translation links work | todo | Basic trust signal |
-| No obviously broken outbound links in top sections | todo | Broken links degrade credibility fast |
-| CONTRIBUTING rules match actual review policy | todo | Prevents low-quality inbound PRs |
-| Social preview image exists | todo | Useful for launch posts |
+| README opening paragraph is sharp and credible | done | Scope statement explicitly excludes personal certifications; clear conversion point |
+| GitHub description matches README scope | done | Repo description and README both scoped to international standards/frameworks for organizations |
+| Topics are curated and non-spammy | done | 19 on-scope topics (`awesome-list`, `compliance`, `standards`, `grc`, `gdpr`, etc.) |
+| All translation links work | done | EN/IT/DE/ES files all present and cross-linked from the Translations hub |
+| No obviously broken outbound links in top sections | done | Fixed dead `Pomerium/awesome-compliance` (404) → `getprobo/awesome-compliance` across all four READMEs |
+| CONTRIBUTING rules match actual review policy | done | CONTRIBUTING scope/quality rules match the README contribution rules |
+| Social preview image exists | todo | No OG image set; requires a manual upload in repo settings (not agent-operable) |
 
 ## Cadence
 
@@ -194,6 +206,9 @@ Use this as the operating history of distribution work for this repository.
 | 2026-06-17 | `DISTRIBUTING.md` repurposed from a copied skills-distribution tracker into a repository-specific distribution dashboard for `awesome-corporate-standards` |
 | 2026-06-17 | Expanded the channel inventory with GitHub-native surfaces, list aggregators, passive public directories, thematic environments, and external discussion/forum targets |
 | 2026-06-17 | Added an operational shortlist with P1/P2/P3 priority channels for agent-driven distribution work |
+| 2026-06-17 | Ran a distribution round: completed the pre-promotion operating checklist (README scope, repo description, topics, translation links, CONTRIBUTING/README policy match all verified) |
+| 2026-06-17 | Fixed a dead outbound link in the `Related Awesome Lists` section across all four READMEs (`Pomerium/awesome-compliance` 404 → live `getprobo/awesome-compliance`) |
+| 2026-06-17 | Validated P1 aggregator contribution paths (`donbarbos/awesome-standards`, `getprobo/awesome-compliance`, `theopenlane/awesome-compliance` all live); PR payloads staged under `.github/distribution/`, submission pending owner go-ahead |
 
 
 
