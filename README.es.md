@@ -213,7 +213,7 @@ Marcos de trabajo que ayudan a las organizaciones a gestionar de forma holístic
 - [awesome-standards](https://github.com/donbarbos/awesome-standards) — Estándares técnicos: RFC, propuestas, especificaciones de lenguaje (orientado a desarrolladores)
 - [awesome-security](https://github.com/sbilly/awesome-security) — Herramientas, recursos y referencias de seguridad
 - [awesome-gdpr](https://github.com/bakke92/awesome-gdpr) — Recursos y herramientas para el RGPD
-- [awesome-compliance](https://github.com/Pomerium/awesome-compliance) — Herramientas y recursos de cumplimiento
+- [awesome-compliance](https://github.com/getprobo/awesome-compliance) — Marcos, herramientas y recursos de cumplimiento
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Certificaciones personales gratuitas para desarrolladores (NO esta lista)
 
 <p align="center">~ ~ ~</p>

@@ -213,7 +213,7 @@ Framework che aiutano le organizzazioni a gestire in modo olistico la governance
 - [awesome-standards](https://github.com/donbarbos/awesome-standards) — Standard tecnici: RFC, proposte, specifiche di linguaggio (per sviluppatori)
 - [awesome-security](https://github.com/sbilly/awesome-security) — Strumenti, risorse e riferimenti per la sicurezza
 - [awesome-gdpr](https://github.com/bakke92/awesome-gdpr) — Risorse e strumenti per il GDPR
-- [awesome-compliance](https://github.com/Pomerium/awesome-compliance) — Strumenti e risorse per la conformità
+- [awesome-compliance](https://github.com/getprobo/awesome-compliance) — Framework, strumenti e risorse per la conformità
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Certificazioni personali gratuite per sviluppatori (NON questa lista)
 
 <p align="center">~ ~ ~</p>

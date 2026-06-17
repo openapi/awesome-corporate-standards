@@ -213,7 +213,7 @@ Frameworks helping organizations manage governance, enterprise risk, and regulat
 - [awesome-standards](https://github.com/donbarbos/awesome-standards) — Technical standards: RFC, proposals, language specs (developer-focused)
 - [awesome-security](https://github.com/sbilly/awesome-security) — Security tools, resources, and references
 - [awesome-gdpr](https://github.com/bakke92/awesome-gdpr) — GDPR resources and tools
-- [awesome-compliance](https://github.com/Pomerium/awesome-compliance) — Compliance tools and resources
+- [awesome-compliance](https://github.com/getprobo/awesome-compliance) — Compliance frameworks, tools, and resources
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Free personal certifications for developers (NOT this list)
 
 <p align="center">~ ~ ~</p>
