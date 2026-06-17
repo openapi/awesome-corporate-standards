@@ -97,6 +97,18 @@ Ready-to-use entry text:
 
 Resume procedure per target: `gh repo fork OWNER/REPO --fork-name <name> --clone` → branch `add/awesome-corporate-standards` → insert the entry in the validated section → commit with a useful title → push → `gh pr create --repo OWNER/REPO`. PR title/body are staged in the matching `.github/distribution/payloads/*.md`. Authenticated GitHub account for this work: `francescobianco` (token has `repo` scope; fork + PR confirmed possible).
 
+## Open PR monitoring tasks (todo)
+
+Five outbound PRs are live and awaiting maintainer review. Recurring task: check each for review/merge or change requests, respond promptly to reviewer feedback (fork branches are kept on the `francescobianco` account, branch `add/awesome-corporate-standards`), and on merge flip the matching status to `listed`.
+
+- [ ] **donbarbos/awesome-standards** — [PR #8](https://github.com/donbarbos/awesome-standards/pull/8) — OPEN, no review yet
+- [ ] **getprobo/awesome-compliance** — [PR #37](https://github.com/getprobo/awesome-compliance/pull/37) — OPEN, no review yet
+- [ ] **theopenlane/awesome-compliance** — [PR #37](https://github.com/theopenlane/awesome-compliance/pull/37) — OPEN, review required; watch the `awesome-lint` CI
+- [ ] **Arudjreis/awesome-security-GRC** — [PR #37](https://github.com/Arudjreis/awesome-security-GRC/pull/37) — OPEN, no review yet (1052★ — highest-traffic target)
+- [ ] **ethanolivertroy/awesome-grc-engineering** — [PR #8](https://github.com/ethanolivertroy/awesome-grc-engineering/pull/8) — OPEN, no review yet
+
+Check command: `gh pr view <num> --repo <owner/repo> --json state,reviewDecision,mergedAt,comments`
+
 ### Forum / external-discussion stance (decided 2026-06-17)
 
 Driving traffic via forum comments will **not** be done by mass-posting promotional links — that violates the host communities' rules and this file's own editorial guardrails, and there is no authenticated posting access anyway. The supported play: prepare high-context answer drafts for genuinely matching threads (per `notes/external-comments.md`), which the repository owner posts under their own account. Channels in surface §5 stay `monitoring`/`todo` until a real matching thread appears.
@@ -132,7 +144,7 @@ These are curated repositories or awesome-list style aggregators where this proj
 | awesome-standards | `https://github.com/donbarbos/awesome-standards` | PR / review | partial | high | submitted | PR opened → [donbarbos#8](https://github.com/donbarbos/awesome-standards/pull/8), awaiting review |
 | awesome-compliance | `https://github.com/getprobo/awesome-compliance` | PR / review | partial | high | submitted | PR opened → [getprobo#37](https://github.com/getprobo/awesome-compliance/pull/37), awaiting review |
 | awesome-compliance | `https://github.com/theopenlane/awesome-compliance` | PR / review | partial | high | submitted | PR opened → [theopenlane#37](https://github.com/theopenlane/awesome-compliance/pull/37), awaiting review |
-| awesome-security-GRC | `https://github.com/Arudjreis/awesome-security-GRC` | PR / review | partial | medium-high | todo | Strong overlap on GRC and audit angles |
+| awesome-security-GRC | `https://github.com/Arudjreis/awesome-security-GRC` | PR / review | partial | medium-high | submitted | PR opened → [Arudjreis#37](https://github.com/Arudjreis/awesome-security-GRC/pull/37) (1052★ list), awaiting review |
 | awesome-gdpr / GDPR compliance resources | `https://github.com/paulveillard/cybersecurity-gdpr-compliance` | PR / review | partial | medium | todo | Good for privacy and compliance subsections, less for whole-list scope |
 | awesome-privacy | `https://github.com/lissy93/awesome-privacy` | PR / review | partial | medium-low | todo | Broad privacy audience, but repo focus is wider than privacy |
 | awesome-privacy | `https://github.com/pluja/awesome-privacy` | PR / review | partial | medium-low | todo | Same consideration as above |
@@ -163,9 +175,9 @@ These are adjacent curated environments where the repository may belong because 
 
 | Channel | URL | Mode | Agent-operable | Fit | Status | Notes |
 |---|---|---|---|---|---|---|
-| awesome-grc-engineering | `https://github.com/ethanolivertroy/awesome-grc-engineering` | PR / review | partial | high | todo | Good fit for governance, controls, and compliance engineering framing |
-| awesome-grcengineering | `https://github.com/grcengineering/awesome-grcengineering` | PR / review | partial | high | todo | Strong target if they accept external educational resources |
-| awesome-security-GRC | `https://github.com/Arudjreis/awesome-security-GRC` | PR / review | partial | high | todo | Could sit both as aggregator and thematic environment |
+| awesome-grc-engineering | `https://github.com/ethanolivertroy/awesome-grc-engineering` | PR / review | partial | high | submitted | PR opened → [ethanolivertroy#8](https://github.com/ethanolivertroy/awesome-grc-engineering/pull/8), awaiting review |
+| awesome-grcengineering | `https://github.com/grcengineering/awesome-grcengineering` | PR / review | partial | high | n/a | Skipped: it is a cheat sheet, not a link directory — no natural section for an external awesome list. Revisit if they add a resources/related section |
+| awesome-security-GRC | `https://github.com/Arudjreis/awesome-security-GRC` | PR / review | partial | high | submitted | Same target as §2 — PR [Arudjreis#37](https://github.com/Arudjreis/awesome-security-GRC/pull/37) |
 | awesome-artificial-intelligence-regulation | `https://github.com/EthicalML/awesome-artificial-intelligence-regulation` | PR / review | partial | medium | todo | Relevant where the list's regulation/standards framing is valuable as a reference layer |
 | AwesomeResponsibleAI | `https://github.com/AthenaCore/AwesomeResponsibleAI` | PR / review | partial | medium | todo | Adjacent standards and governance audience |
 | awesome-ai-governance | `https://github.com/Aperintel/awesome-ai-governance` | PR / review | partial | medium | todo | Relevant if emphasizing governance frameworks more than general certifications |
@@ -244,6 +256,8 @@ Use this as the operating history of distribution work for this repository.
 | 2026-06-17 | Set the three P1 aggregator rows to `in progress` (entries ready, PRs not yet opened); opening the PRs is the next-session action |
 | 2026-06-17 | Recorded the forum/external-discussion stance: contextual owner-posted answers only, no automated promotional posting |
 | 2026-06-17 | Opened the three P1 aggregator PRs: [donbarbos/awesome-standards#8](https://github.com/donbarbos/awesome-standards/pull/8), [getprobo/awesome-compliance#37](https://github.com/getprobo/awesome-compliance/pull/37), [theopenlane/awesome-compliance#37](https://github.com/theopenlane/awesome-compliance/pull/37) — all OPEN, awaiting maintainer review |
+| 2026-06-17 | Second distribution round: opened [Arudjreis/awesome-security-GRC#37](https://github.com/Arudjreis/awesome-security-GRC/pull/37) (1052★) and [ethanolivertroy/awesome-grc-engineering#8](https://github.com/ethanolivertroy/awesome-grc-engineering/pull/8); skipped `grcengineering/awesome-grcengineering` (cheat-sheet format, no fitting section) |
+| 2026-06-17 | Added the `Open PR monitoring tasks` checklist to track the 5 live outbound PRs through review/merge |
 
 
 
