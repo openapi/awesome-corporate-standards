@@ -70,6 +70,35 @@ The repo-level execution assets for outbound distribution live under `.github/di
 | P1 payload: awesome-compliance (theopenlane) | `.github/distribution/payloads/awesome-compliance-theopenlane.md` | PR-ready entry, title, and body |
 | External comments playbook | `.github/distribution/notes/external-comments.md` | Rules for contextual posting outside GitHub |
 
+## PR submission queue (validated, ready to open)
+
+State as of 2026-06-17. The three P1 aggregators were inspected live: target section, entry format, and contribution rules are confirmed, and the exact entry text is prepared below. **No PR has been opened yet** — this is the next-session action. Each target is a distinct upstream, so forks must use distinct names (both compliance lists share the name `awesome-compliance`).
+
+| Target | Stars | Section to edit | Entry format | Fork name to use | Status |
+|---|---|---|---|---|---|
+| `donbarbos/awesome-standards` | 223 | `## Related Awesome Lists` | `- [Name](url) - Description.` | `francescobianco/awesome-standards` | entry ready, PR pending |
+| `getprobo/awesome-compliance` | 89 | `## Related` | `- [Name](url).` (minimal, matches existing) | `francescobianco/awesome-compliance` | entry ready, PR pending |
+| `theopenlane/awesome-compliance` | 50 | `### Compliance Specifications & Resources` | `- [Name](url) - Description.` (must pass `awesome-lint`) | `francescobianco/awesome-compliance-theopenlane` | entry ready, PR pending |
+
+Ready-to-use entry text:
+
+```md
+<!-- donbarbos/awesome-standards → Related Awesome Lists -->
+- [Awesome Corporate Standards](https://github.com/openapi/awesome-corporate-standards) - International standards, frameworks, and certification bodies for organizations and businesses (quality, security, privacy, ESG, finance, and sector-specific compliance).
+
+<!-- getprobo/awesome-compliance → ## Related -->
+- [Awesome Corporate Standards](https://github.com/openapi/awesome-corporate-standards).
+
+<!-- theopenlane/awesome-compliance → Compliance Specifications & Resources -->
+- [Awesome Corporate Standards](https://github.com/openapi/awesome-corporate-standards) - Curated reference list of international standards, frameworks, and certification bodies for organizations, spanning ISO 9001/27001/14001, GDPR, PCI DSS, SOX, AS9100, ISO 13485, and sector-specific compliance.
+```
+
+Resume procedure per target: `gh repo fork OWNER/REPO --fork-name <name> --clone` → branch `add/awesome-corporate-standards` → insert the entry in the validated section → commit with a useful title → push → `gh pr create --repo OWNER/REPO`. PR title/body are staged in the matching `.github/distribution/payloads/*.md`. Authenticated GitHub account for this work: `francescobianco` (token has `repo` scope; fork + PR confirmed possible).
+
+### Forum / external-discussion stance (decided 2026-06-17)
+
+Driving traffic via forum comments will **not** be done by mass-posting promotional links — that violates the host communities' rules and this file's own editorial guardrails, and there is no authenticated posting access anyway. The supported play: prepare high-context answer drafts for genuinely matching threads (per `notes/external-comments.md`), which the repository owner posts under their own account. Channels in surface §5 stay `monitoring`/`todo` until a real matching thread appears.
+
 ## Distribution surfaces
 
 ### 1. GitHub-native and mechanized channels
@@ -98,9 +127,9 @@ These are curated repositories or awesome-list style aggregators where this proj
 
 | Channel | URL | Mode | Agent-operable | Fit | Status | Notes |
 |---|---|---|---|---|---|---|
-| awesome-standards | `https://github.com/donbarbos/awesome-standards` | PR / review | partial | high | todo | Closest direct topical overlap on standards |
-| awesome-compliance | `https://github.com/getprobo/awesome-compliance` | PR / review | partial | high | todo | Strong fit on compliance frameworks and references |
-| awesome-compliance | `https://github.com/theopenlane/awesome-compliance` | PR / review | partial | high | todo | Similar fit, likely good secondary target |
+| awesome-standards | `https://github.com/donbarbos/awesome-standards` | PR / review | partial | high | in progress | Placement validated → `Related Awesome Lists`. Entry ready, PR not yet opened |
+| awesome-compliance | `https://github.com/getprobo/awesome-compliance` | PR / review | partial | high | in progress | Placement validated → `## Related`. Entry ready, PR not yet opened |
+| awesome-compliance | `https://github.com/theopenlane/awesome-compliance` | PR / review | partial | high | in progress | Placement validated → `Compliance Specifications & Resources`. Lint-clean entry ready, PR not yet opened |
 | awesome-security-GRC | `https://github.com/Arudjreis/awesome-security-GRC` | PR / review | partial | medium-high | todo | Strong overlap on GRC and audit angles |
 | awesome-gdpr / GDPR compliance resources | `https://github.com/paulveillard/cybersecurity-gdpr-compliance` | PR / review | partial | medium | todo | Good for privacy and compliance subsections, less for whole-list scope |
 | awesome-privacy | `https://github.com/lissy93/awesome-privacy` | PR / review | partial | medium-low | todo | Broad privacy audience, but repo focus is wider than privacy |
@@ -209,6 +238,9 @@ Use this as the operating history of distribution work for this repository.
 | 2026-06-17 | Ran a distribution round: completed the pre-promotion operating checklist (README scope, repo description, topics, translation links, CONTRIBUTING/README policy match all verified) |
 | 2026-06-17 | Fixed a dead outbound link in the `Related Awesome Lists` section across all four READMEs (`Pomerium/awesome-compliance` 404 → live `getprobo/awesome-compliance`) |
 | 2026-06-17 | Validated P1 aggregator contribution paths (`donbarbos/awesome-standards`, `getprobo/awesome-compliance`, `theopenlane/awesome-compliance` all live); PR payloads staged under `.github/distribution/`, submission pending owner go-ahead |
+| 2026-06-17 | Inspected all three P1 aggregators live (structure, target section, entry format, contribution rules); confirmed exact placement and prepared lint-clean entry text — see `PR submission queue` |
+| 2026-06-17 | Set the three P1 aggregator rows to `in progress` (entries ready, PRs not yet opened); opening the PRs is the next-session action |
+| 2026-06-17 | Recorded the forum/external-discussion stance: contextual owner-posted answers only, no automated promotional posting |
 
 
 
