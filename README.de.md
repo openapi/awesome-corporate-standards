@@ -213,6 +213,7 @@ Rahmenwerke, die Organisationen bei der ganzheitlichen Verwaltung von Governance
 - [awesome-standards](https://github.com/donbarbos/awesome-standards) — Technische Standards: RFC, Proposals, Sprachspezifikationen (entwicklerorientiert)
 - [awesome-security](https://github.com/sbilly/awesome-security) — Sicherheitstools, Ressourcen und Referenzen
 - [awesome-gdpr](https://github.com/bakke92/awesome-gdpr) — DSGVO-Ressourcen und Tools
+- [awesome-compliance](https://github.com/theopenlane/awesome-compliance) — Eine kuratierte Liste großartiger Compliance-Ressourcen, -Bibliotheken und -Tools
 - [awesome-compliance](https://github.com/getprobo/awesome-compliance) — Compliance-Frameworks, -Tools und -Ressourcen
 - [awesome-certificates](https://github.com/PanXProject/awesome-certificates) — Kostenlose persönliche Zertifizierungen für Entwickler (NICHT diese Liste)
 
