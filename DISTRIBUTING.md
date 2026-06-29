@@ -51,7 +51,7 @@ This is the first execution batch. It favors channels with high topical fit and 
 | P1 | GitHub topic pages: `awesome-list`, `standards`, `compliance`, `grc`, `gdpr` | Core passive discovery surfaces already fed by repo metadata | yes | Monitor ranking and tighten topical wording in README if needed | monitoring |
 | P1 | `awesome-standards` | Best direct overlap with the repository's standards focus | partial | PR [donbarbos#8](https://github.com/donbarbos/awesome-standards/pull/8) open — monitor for review | submitted |
 | P1 | `awesome-compliance` (`getprobo`) | Strong overlap on compliance frameworks and organizational standards | partial | PR [getprobo#37](https://github.com/getprobo/awesome-compliance/pull/37) open — monitor for review | submitted |
-| P1 | `awesome-compliance` (`theopenlane`) | Secondary high-fit aggregator in the same space | partial | PR [theopenlane#37](https://github.com/theopenlane/awesome-compliance/pull/37) open — monitor for review | submitted |
+| P1 | `awesome-compliance` (`theopenlane`) | Secondary high-fit aggregator in the same space | partial | PR [theopenlane#37](https://github.com/theopenlane/awesome-compliance/pull/37) **merged 2026-06-29** — live | listed |
 | P2 | `awesome-security-GRC` | Strong fit for governance, risk, audit, and security controls subsections | partial | Emphasize ISO 27001, SOC, NIST, PCI DSS, and GRC coverage | todo |
 | P2 | `awesome-grc-engineering` / `awesome-grcengineering` | Good contextual fit for governance and compliance engineering readers | partial | Position the repo as a standards reference layer, not a tool catalog | todo |
 | P2 | Reddit `r/gdpr` | Best non-GitHub environment for selective, contextual references to privacy sections | partial | Watch for threads comparing GDPR, ISO 27701, and org-level privacy frameworks | monitoring |
@@ -78,7 +78,7 @@ State as of 2026-06-17. The three P1 aggregator PRs are **opened and awaiting re
 |---|---|---|---|---|---|
 | `donbarbos/awesome-standards` | 223 | `## Related Awesome Lists` | `francescobianco/awesome-standards` | [#8](https://github.com/donbarbos/awesome-standards/pull/8) | submitted |
 | `getprobo/awesome-compliance` | 89 | `## Related` | `francescobianco/awesome-compliance-getprobo` | [#37](https://github.com/getprobo/awesome-compliance/pull/37) | submitted |
-| `theopenlane/awesome-compliance` | 50 | `### Compliance Specifications & Resources` | `francescobianco/awesome-compliance` | [#37](https://github.com/theopenlane/awesome-compliance/pull/37) | submitted |
+| `theopenlane/awesome-compliance` | 50 | `### Compliance Specifications & Resources` | `francescobianco/awesome-compliance` | [#37](https://github.com/theopenlane/awesome-compliance/pull/37) | **merged → listed** |
 
 Next action on these: monitor for maintainer review/merge or change requests, and respond if a reviewer asks for edits.
 
@@ -99,13 +99,15 @@ Resume procedure per target: `gh repo fork OWNER/REPO --fork-name <name> --clone
 
 ## Open PR monitoring tasks (todo)
 
-Five outbound PRs are live and awaiting maintainer review. Recurring task: check each for review/merge or change requests, respond promptly to reviewer feedback (fork branches are kept on the `francescobianco` account, branch `add/awesome-corporate-standards`), and on merge flip the matching status to `listed`.
+Six outbound PRs remain live and awaiting maintainer review. Recurring task: check each for review/merge or change requests, respond promptly to reviewer feedback (fork branches are kept on the `francescobianco` account, branch `add/awesome-corporate-standards`), and on merge flip the matching status to `listed`.
 
 - [ ] **donbarbos/awesome-standards** — [PR #8](https://github.com/donbarbos/awesome-standards/pull/8) — OPEN, no review yet
 - [ ] **getprobo/awesome-compliance** — [PR #37](https://github.com/getprobo/awesome-compliance/pull/37) — OPEN, no review yet
-- [ ] **theopenlane/awesome-compliance** — [PR #37](https://github.com/theopenlane/awesome-compliance/pull/37) — OPEN, review required; watch the `awesome-lint` CI
+- [x] **theopenlane/awesome-compliance** — [PR #37](https://github.com/theopenlane/awesome-compliance/pull/37) — **MERGED 2026-06-29 (APPROVED) → listed**
 - [ ] **Arudjreis/awesome-security-GRC** — [PR #37](https://github.com/Arudjreis/awesome-security-GRC/pull/37) — OPEN, no review yet (1052★ — highest-traffic target)
-- [ ] **ethanolivertroy/awesome-grc-engineering** — [PR #8](https://github.com/ethanolivertroy/awesome-grc-engineering/pull/8) — OPEN, no review yet
+- [ ] **ethanolivertroy/awesome-grc-engineering** — [PR #8](https://github.com/ethanolivertroy/awesome-grc-engineering/pull/8) — OPEN; CodeRabbit auto-review clean (no actionable comments); PR description completed to repo template on 2026-06-29
+- [ ] **SmartQHSE/awesome-hse** — [PR #1](https://github.com/SmartQHSE/awesome-hse/pull/1) — OPEN, no review yet (added to `Related awesome lists`)
+- [ ] **paulveillard/cybersecurity-gdpr-compliance** — [PR #3](https://github.com/paulveillard/cybersecurity-gdpr-compliance/pull/3) — OPEN, no review yet (added to `Related`)
 
 Check command: `gh pr view <num> --repo <owner/repo> --json state,reviewDecision,mergedAt,comments`
 
@@ -143,9 +145,9 @@ These are curated repositories or awesome-list style aggregators where this proj
 |---|---|---|---|---|---|---|
 | awesome-standards | `https://github.com/donbarbos/awesome-standards` | PR / review | partial | high | submitted | PR opened → [donbarbos#8](https://github.com/donbarbos/awesome-standards/pull/8), awaiting review |
 | awesome-compliance | `https://github.com/getprobo/awesome-compliance` | PR / review | partial | high | submitted | PR opened → [getprobo#37](https://github.com/getprobo/awesome-compliance/pull/37), awaiting review |
-| awesome-compliance | `https://github.com/theopenlane/awesome-compliance` | PR / review | partial | high | submitted | PR opened → [theopenlane#37](https://github.com/theopenlane/awesome-compliance/pull/37), awaiting review |
+| awesome-compliance | `https://github.com/theopenlane/awesome-compliance` | PR / review | partial | high | listed | PR [theopenlane#37](https://github.com/theopenlane/awesome-compliance/pull/37) **merged 2026-06-29** |
 | awesome-security-GRC | `https://github.com/Arudjreis/awesome-security-GRC` | PR / review | partial | medium-high | submitted | PR opened → [Arudjreis#37](https://github.com/Arudjreis/awesome-security-GRC/pull/37) (1052★ list), awaiting review |
-| awesome-gdpr / GDPR compliance resources | `https://github.com/paulveillard/cybersecurity-gdpr-compliance` | PR / review | partial | medium | todo | Good for privacy and compliance subsections, less for whole-list scope |
+| awesome-gdpr / GDPR compliance resources | `https://github.com/paulveillard/cybersecurity-gdpr-compliance` | PR / review | partial | medium | submitted | PR opened → [paulveillard#3](https://github.com/paulveillard/cybersecurity-gdpr-compliance/pull/3) to `## Related`, awaiting review |
 | awesome-privacy | `https://github.com/lissy93/awesome-privacy` | PR / review | partial | medium-low | todo | Broad privacy audience, but repo focus is wider than privacy |
 | awesome-privacy | `https://github.com/pluja/awesome-privacy` | PR / review | partial | medium-low | todo | Same consideration as above |
 | awesome-security-standards | `https://github.com/MarkStanhope/AwesomeSecurityStandardsList` | PR / review | partial | medium | todo | Security-heavy, narrower than the repo's full scope |
@@ -182,7 +184,7 @@ These are adjacent curated environments where the repository may belong because 
 | AwesomeResponsibleAI | `https://github.com/AthenaCore/AwesomeResponsibleAI` | PR / review | partial | medium | todo | Adjacent standards and governance audience |
 | awesome-ai-governance | `https://github.com/Aperintel/awesome-ai-governance` | PR / review | partial | medium | todo | Relevant if emphasizing governance frameworks more than general certifications |
 | awesome-cra-compliance | `https://github.com/cra-compliance-lab/awesome-cra-compliance` | PR / review | partial | medium | todo | Good cross-link target for EU compliance and harmonized standards |
-| awesome-hse | `https://github.com/SmartQHSE/awesome-hse` | PR / review | partial | medium | todo | Useful for health, safety, and environmental subsections |
+| awesome-hse | `https://github.com/SmartQHSE/awesome-hse` | PR / review | partial | medium | submitted | PR opened → [SmartQHSE#1](https://github.com/SmartQHSE/awesome-hse/pull/1) to `## Related awesome lists` (ISO 9001/14001/45001 overlap), awaiting review |
 | awesome-medical-device-regulation | `https://github.com/Leon-SG/awesome-medical-device-regulation` | PR / review | partial | medium | todo | Relevant for the medical devices block |
 | Awesome-FCC | `https://github.com/SKR-35/Awesome-FCC` | PR / review | partial | medium-low | todo | Niche but relevant for financial compliance adjacency |
 ### 5. External discussions, article threads, and forums
@@ -258,6 +260,10 @@ Use this as the operating history of distribution work for this repository.
 | 2026-06-17 | Opened the three P1 aggregator PRs: [donbarbos/awesome-standards#8](https://github.com/donbarbos/awesome-standards/pull/8), [getprobo/awesome-compliance#37](https://github.com/getprobo/awesome-compliance/pull/37), [theopenlane/awesome-compliance#37](https://github.com/theopenlane/awesome-compliance/pull/37) — all OPEN, awaiting maintainer review |
 | 2026-06-17 | Second distribution round: opened [Arudjreis/awesome-security-GRC#37](https://github.com/Arudjreis/awesome-security-GRC/pull/37) (1052★) and [ethanolivertroy/awesome-grc-engineering#8](https://github.com/ethanolivertroy/awesome-grc-engineering/pull/8); skipped `grcengineering/awesome-grcengineering` (cheat-sheet format, no fitting section) |
 | 2026-06-17 | Added the `Open PR monitoring tasks` checklist to track the 5 live outbound PRs through review/merge |
+| 2026-06-29 | Monitored open PRs: [theopenlane/awesome-compliance#37](https://github.com/theopenlane/awesome-compliance/pull/37) **merged (APPROVED)** → flipped to `listed`; the other four P1/P2 PRs still OPEN with no review |
+| 2026-06-29 | Handled [ethanolivertroy/awesome-grc-engineering#8](https://github.com/ethanolivertroy/awesome-grc-engineering/pull/8): CodeRabbit auto-review returned no actionable comments and validated the link; completed the PR description to the repo's PR template (Types of changes / Checklist / Resource details) to clear the inconclusive pre-merge Description check |
+| 2026-06-29 | Distribution round: opened [SmartQHSE/awesome-hse#1](https://github.com/SmartQHSE/awesome-hse/pull/1) (`Related awesome lists`, ISO 9001/14001/45001 QHSE overlap) and [paulveillard/cybersecurity-gdpr-compliance#3](https://github.com/paulveillard/cybersecurity-gdpr-compliance/pull/3) (`Related`, GDPR/ISO 27701/27001 overlap) |
+| 2026-06-29 | Validated but skipped this round: `EthicalML/awesome-artificial-intelligence-regulation` (no related-lists section — only a single promo table), `cra-compliance-lab/awesome-cra-compliance` (contribution rules restrict entries to CRA-specific resources), `MarkStanhope/AwesomeSecurityStandardsList` (abandoned since 2018), `Leon-SG/awesome-medical-device-regulation` and `Aperintel/awesome-ai-governance` (0★, no clean related-list section) |
 
 
 
